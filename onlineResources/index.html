@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Study Platform</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    
+    <header>
+        <div class="logo">
+            <h1>Learinign PlatFrom</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#resources">Learing Resources</a></li>
+                <li><a href="#groups">Domain</a></li>
+                <li><a href="#from">From</a></li>
+                <li><a href="#Time">Support Services</a></li>
+                <li><a href="#Contact">Contact</a></li>
+            </ul>
+            <div class="menu-btn">
+                <i class="fasfa-bars active"></i>
+            </div>
+        </nav>
+    </header>
+    <button id="scrollUpBtn" title="Go to top">⬆️</button>
+    <section class="dashboard">
+        <aside class="sidebar">
+            <from name="from">
+                <div class="login-container">
+                    <h2 style="color:#339">Login</h2>
+                    <form action="login" method="post">
+                        <div class="input-group">
+                            <label for="username">Username</label>
+                            <input type="text" id="username" name="username" required>
+                        </div>
+                        <div class="input-group">
+                            <label for="password">Password</label>
+                            <input type="password" id="password" name="password" required>
+                        </div>
+                        <div class="input-group">
+                            <lebel for="forget-password"><button class="forget" ><u>Forget Password ? </u></button></lebel>
+                        </div>
+                        <div class="input-group">
+                            <button type="submit" class="btn-log">Login</button>
+                         </div>
+           </from>
+        </aside>
+        
+        <main class="feed">
+            <a name="resources"><h2>Learing Resources</h2></a>
+            <div class="feed-item">
+                <h3>Discussion : Programming With C</h3>
+                <p>Join The Online Classes</p>
+                <a href="#file" class="btn">join Discussion</a>
+            </div>
+
+            <div class="feed-item">
+                <h3>Discussion: What’s the best way to learn Python?</h3>
+                <p>Join the discussion on Python learning resources.</p>
+                <a href="#" class="btn">Join Discussion</a>
+            </div>
+            <div class="feed-item">
+                <h3>Discussion : All About Java ?</h3>
+                <p>Join The Online Classes</p>
+                <a href="#" class="btn">Join Discussion</a>
+            </div>
+            <div class="feed-item">
+                <h3>Discussion : All About Python ?</h3>
+                <p>Join The Online Classses</p>
+                <a href="#" class="btn">Join Discussion</a>
+            </div>
+            <div class="feed-item">
+                <h3>Discussion : All About DSA</h3>
+                <p>Join The Online Classes</p>
+                <a href="#" class="btn">Join Discussion</a>
+            </div>
+        </main>
+    </section>
+    <section id="Study-group">
+        <div class="name">
+            <center><h1><a name="groups">Student Domain</a></h1></center>
+        </div>
+        <div class="field">
+            <center><ul class="ul">
+                <li class="li">Programming &nbsp;&nbsp;&nbsp;
+                    <div class="drop-down">
+                        <span class="drodown"><a href="#">C</a></span><br>
+                        <span class="drodown"><a href="#">C++</a></span><br>
+                        <span class="drodown"><a href="#">Java</a></span><br>
+                        <span class="drodown"><a href="#">Python</a></span><br>
+                    </div>
+                </li>
+                <li class="li">Web Development &nbsp;&nbsp;&nbsp;
+                    <div class="drop-down">
+                        <span class="drodown">MERN Stack</span><br>
+                        <span class="drodown">MEAN Stack</span><br>
+                    </div>
+                </li>
+                <li class="li">App Devlepment &nbsp;&nbsp;&nbsp;
+                    <!--<div class="drop-down">
+                        <span class="drodown">Morining Class</span><br>
+                        <span class="drodown">Afternoon Class</span><br>
+                        <span class="drodown">Night Class</span><br>
+                    </div>-->
+                </li>
+                <li class="li">Data Analyst  &nbsp;&nbsp;&nbsp;
+                    <div class="drop-down">
+                        <span class="drodown">Python </span><br>
+                        <span class="drodown">Excel </span><br>
+                        <span class="drodown">Poer Bi</span><br>
+                    </div>
+                </li>
+                <li class="li">Cyber Security  &nbsp;&nbsp;&nbsp;
+                    <div class="drop-down">
+                        <span class="drodown">Computer Networking </span><br>
+                        <span class="drodown">Operting System</span><br>
+                        <span class="drodown">DataBase</span><br>
+                    </div>
+                </li>
+            
+            </ul></center>
+            </div>
+        </div>
+    </section>
+    <section id="reg">
+        <div class="from">
+            <center><h1><a name="from">Registration From </a></h1></center>
+        </div>
+        <div class="from-outer">
+        <div class="form-container">
+            <form action="#" method="POST" class="from-reg">
+                <label for="name" class="lebel">Full Name:</label>
+                <input type="text" id="name" name="name" placeholder="Enter your full name" required>
+                
+                <label for="email" class="lebel">Email:</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email" required>
+                
+                <label for="password" class="lebel">Password:</label>
+                <input type="password" id="password" name="password" placeholder="Enter your password" required>
+                
+                <label for="gender" class="lebel">Gender:</label>
+                <select id="gender" name="gender" required>
+                    <option value="" disabled selected>Select your gender</option>
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                    <option value="other">Other</option>
+                </select><br><br>
+                <center><button type="submit" class="button">Submit</button></center>
+            </form>
+        </div>
+        </div>
+    </section>
+    <section id="support">
+        <div class="name-support">
+            <center><h1><a name="Time">Support Services</a></h1></center>
+        </div>
+        <hr style="width:70%;">
+        <div class="list-suport" style="margin-left:200px; font-size:25px;">
+            <ul class="support-ul">
+                <a href="#Consultations"><li class="support-li">Consultations</li></a><br>
+                <a href="#Technology"><li class="support-li">Technology Help</li></a><br>
+                 <a href="#in-class-work-shop"><li class="support-li">In-Class Workshops</li></a>
+            </ul>
+        </div>
+        <div class="name-support-con">
+            <center><h1 style="color:rgb(21, 18, 18);"><a name="Consultations">Consultations</a></h1></center>
+        </div>
+        <div class="main-support-con">
+            <div class="head-con" style="margin-left:300px;"><h3>Learning Experience Design</h3>
+                <span class="const-support">
+                    If you are looking for ideas or guidance on creating new courses or reinventing older ones, contact the learning experience designer assigned to your college or program in the Center for Teaching and Learning.
+                </span>
+            </div><br><br>
+                <div class="button-const"><center><button type="submit" class="const-button">Learn More</button></center></div>
+        </div><br><br>
+        <hr style="width:70%;">
+        <div class="main-support-con-tech">
+            <div class="head-con" style="margin-left:300px;"><h3>Teaching Support</h3>
+                <span class="const-support-tech">
+                    If you are looking for ideas or guidance on a topic relating to your teaching, including confidential feedback, contact the Center for Teaching and Learning.
+                </span>
+            </div><br><br>
+                <div class="button-const"><center><button type="submit" class="const-button">Learn More</button></center></div>
+        </div><br><br>
+        <div class="main-support-con-tech">
+            <div class="head-con" style="margin-left:300px;"><h3>Writing Instruction</h3>
+                <span class="const-support-tech">
+                    If you are looking for ideas or guidance related to writing and writing instruction, contact the University Center for Writing-based Learning.                </span>
+            </div><br><br>
+                <div class="button-const"><center><button type="submit" class="const-button">Learn More</button></center></div>
+        </div><br><br>
+        <div class="main-support-con-tech">
+            <div class="head-con" style="margin-left:300px;"><h3>Service and Community-Based Learning</h3>
+                <span class="const-support-tech">
+                    The Steans Center's assistant director for faculty development is available to meet individually with faculty and instructors considering using service-learning or having decided to do so.
+                </span>
+            </div><br><br>
+                <div class="button-const"><center><button type="submit" class="const-button">Learn More</button></center></div>
+        </div><br><br>
+        <div class="main-support-con-tech">
+            <div class="head-con" style="margin-left:300px;"><h3>Career Development & Internship Courses</h3>
+                <span class="const-support-tech">
+                    The Career Center team is available to consult with faculty one-on-one about creating new or innovating current career development and/or academic internship courses. We also advise regarding career and/or self-assessment – when does it make sense to weave these tools into your classroom and what assessment makes the best sense for your students.
+                </span>
+            </div><br><br>
+                <div class="button-const"><center><button type="submit" class="const-button">Learn More</button></center></div>
+        </div><br><br>
+        <div class="main-support-con-tech">
+            <div class="head-con" style="margin-left:300px;"><h3>Research Help</h3>
+                <span class="const-support-tech">
+                    Contact your University Library liason for in-depth research help.
+                </span>
+            </div><br><br>
+                <div class="button-const"><center><button type="submit" class="const-button">Learn More</button></center></div>
+        </div><br><br>
+        <hr style="width:70%;">
+        <div class="main-support-con-tech">
+            <div class="head-con" style="margin-left:300px;"><h3>Academic Integrity</h3>
+                <span class="const-support-tech">
+                    For more information about the academic integrity policy or process, contact a faculty consultant.
+                </span>
+            </div><br><br>
+                <div class="button-const"><center><button type="submit" class="const-button">Learn More</button></center></div>
+        </div><br><br>
+        <hr style="width:70%;">
+        <div class="main-support-con-tech">
+            <div class="head-con" style="margin-left:300px;"><h3>Student Behavior</h3>
+                <span class="const-support-tech">
+                    Speak with a staff member at the Dean of Student's Office to discuss issues involving student behavior and/or other concerns involving students.
+                </span>
+            </div><br><br>
+                <div class="button-const"><center><button type="submit" class="const-button">Learn More</button></center></div>
+        </div><br><br>
+        <hr style="width:70%;">
+        <div class="main-support-con-tech">
+            <div class="head-con" style="margin-left:300px;"><h3>Explore/Discover Chicago and Focal Point Seminars</h3>
+                <span class="const-support-tech">
+                    Contact the First-Year Program with your questions involving Explore/Discover Chicago and Focal Point Seminars.
+                </span>
+            </div><br><br>
+                <div class="button-const"><center><button type="submit" class="const-button">Learn More</button></center></div>
+        </div><br><br>
+        <hr style="width:70%;">
+        <div class="name-support-con">
+            <center><h1 style="color:rgb(21, 18, 18);"><a name="Technology">Technology Help</a></h1></center>
+        </div>
+        <div class="main-support-con-tech">
+            <div class="head-con" style="margin-left:300px;"><h3>Technical Support</h3>
+                <span class="const-support-tech">
+                    The Help Desk is your first point of contact when you need technical support with technology on campus.
+                </span>
+            </div><br><br>
+                <div class="button-const"><center><button type="submit" class="const-button">Learn More</button></center></div>
+        </div><br><br>
+        <hr style="width:70%;">
+
+        <div class="main-support-con-tech">
+            <div class="head-con" style="margin-left:300px;"><h3>Instructional Technology</h3>
+                <span class="const-support-tech">
+                    Instructional technology consultants help faculty identify and integrate appropriate technology to their teaching contexts.
+                </span>
+            </div><br><br>
+                <div class="button-const"><center><button type="submit" class="const-button">Learn More</button></center></div>
+        </div><br><br>
+        <hr style="width:70%;">
+        <div class="main-support-con-tech">
+            <div class="head-con" style="margin-left:300px;"><h3>Computer Labs and Classrooms</h3>
+                <span class="const-support-tech">
+                    PPBhattacharya has a number of computer labs that are available to faculty by request, in addition to its technology-enabled classrooms.
+                </span>
+            </div><br><br>
+                <div class="button-const"><center><button type="submit" class="const-button">Learn More</button></center></div>
+        </div><br><br>
+        <hr style="width:70%;">
+        <div class="main-support-con-tech">
+            <div class="head-con" style="margin-left:300px;"><h3>Online Training</h3>
+                <span class="const-support-tech">
+                    PPBhattacharya students, faculty, and staff can log in to LinkedIn Learning (formerly Lynda.com) for unlimited free access to a vast online library of instructional videos covering the latest software, creative, and business skills.
+                </span>
+            </div><br><br>
+                <div class="button-const"><center><button type="submit" class="const-button">Learn More</button></center></div>
+        </div><br><br>
+        <div class="name-support-con">
+            <center><h1 style="color:rgb(21, 18, 18);"><a name="in-class-work-shop">In-Class Workshops</a></h1></center>
+        </div>
+        <hr style="width:70%;">
+        <div class="main-support-con-tech">
+            <div class="head-con" style="margin-left:300px;"><h3>Writing Instruction</h3>
+                <span class="const-support-tech">
+                    Faculty can request short presentations about the Writing Center, in addition to customized workshops on topics such as effective peer review, learning portfolios, and more from the University Center for Writing-based Learning (UCWbL).
+                </span>
+            </div><br><br>
+                <div class="button-const"><center><button type="submit" class="const-button">Learn More</button></center></div>
+        </div><br><br>
+        <hr style="width:70%;">
+        <div class="main-support-con-tech">
+            <div class="head-con" style="margin-left:300px;"><h3>Don't Cancel That Class</h3>
+                <span class="const-support-tech">
+                    If you need to cancel class, a professional staff member from the Office of Health Promotion and Wellness will come into your class on the day of your absence and provide an hour-long, educational workshop to your students. Requires advance notice.
+                </span>
+            </div><br><br>
+                <div class="button-const"><center><button type="submit" class="const-button">Learn More</button></center></div>
+        </div><br><br>
+
+    </section>
+    
+    <section id="Contact">
+        <div class-="contact">
+            <center><a name="contact"><h1>Contact</h1></a></center>
+        </div>
+    <div class="contact-form-container">
+        <form action="#" method="POST">
+            
+            <label for="name" class="cont-lebel">Full Name:</label>
+            <input type="text" id="name" name="name" placeholder="Your Full Name" required>
+            
+            <label for="email" class="cont-lebel">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Your Email" required>
+            
+            <label for="subject" class="cont-lebel">Subject:</label>
+            <input type="text" id="subject" name="subject" placeholder="Subject" required>
+            
+            <label for="message" class="cont-lebel">Message:</label>
+            <textarea id="message" name="message" rows="5" placeholder="Write your message here..." required></textarea>
+            
+            <button type="submit" class="cont-btn">Send Message</button>
+        </form>
+    </div>
+</section>
+    <!-- Footer Section -->
+  <footer>
+    <div class="footer-container">
+
+      <div class="footer-section about">
+        <h2>About Us</h2>
+        <p>This Web Site Made By Student Help for Skill Development And Future to Build Your Carear and Placeed Best Company</p>
+      </div>
+
+      <div class="footer-section links">
+        <h2>Quick Links</h2>
+        <ul>
+          <li><a href="#">Learing Resources</a></li>
+          <li><a href="#">Domain</a></li>
+          <li><a href="#">From</a></li>
+          <li><a href="#">Support Services</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-section contact">
+        <h2>Contact Us</h2>
+        <p><strong>Email:</strong> panthapatim@gmail.com</p>
+        <p><strong>Phone:</strong> +9749448338</p>
+        <p><strong>Address:</strong> Purbha Barddhaman, West Bengal</p>
+      </div>
+
+      <div class="footer-section social">
+        <h2>Follow Us</h2>
+        <div class="social-icons">
+          <center><a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a>
+          <a href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+          <a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+          <a href="https://www.linkedin.com" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+        </center> </div>
+      </div>
+
+    </div>
+
+    <div class="footer-bottom">
+      Made By Pantha Patim Bhattacharya
+    </div>
+  </footer>
+  
+    <script src="script.js"></script>
+</body>
+</html>
